@@ -1,0 +1,40 @@
+header {
+    background-color: #f7f7f7;
+    border-bottom: 2px solid #d7d7d7;
+    padding: 15px 0;
+    position: relative;
+    z-index: 2000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo-left img, .logo-right img {
+    height: 60px;
+    width: auto;
+}
+
+.header-center {
+    text-align: center;
+    flex: 1;
+}
+
+.header-center h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.header-center p {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+}
+

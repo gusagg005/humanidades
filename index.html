@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Derecho - Inicio</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo-left">
+                <img src="imagenes/50AÑOS.jpeg" alt="Logo 50 años">
+            </div>
+            <div class="header-center">
+                <h1>DIVISIÓN DE CIENCIAS JURÍDICAS</h1>
+                <p>PROGRAMA DE DERECHO</p>
+            </div>
+            <div class="logo-right">
+                <img src="imagenes/FESACATLAN.jpeg" alt="Logo Acatlán">
+            </div>
+        </div>
+    </header>
+
+    <!-- Layout -->
+    <main class="layout">
+        <!-- Menú lateral -->
+        <aside class="sidebar">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="HTML/Egresados/RegistroEgresados.html">Registro de Egresados</a></li>
+                <li><a href="https://escolares.acatlan.unam.mx/">Información Académica</a></li>
+                <li><a href="HTML/Egresados/CatalogoProfesores.html">Catálogo de Profesores</a></li>
+                <li><a href="https://escolares.acatlan.unam.mx/serviciosm/titulacion.asp">Titulación y Servicios Escolares</a></li>
+                <li><a href="https://www.acatlan.unam.mx/index.php?id=1171">Bolsa de Trabajo</a></li>
+                <li><a href="#">Avisos y Convocatorias</a></li>
+                <li><a href="https://www.facebook.com/divisiondecienciasjuridicas/">Sistema y Recursos Complementarios</a></li>
+                <li><a href="HTML/Egresados/Contacto.html">Contacto</a></li>
+            </ul>
+        </aside>
+
+        <!-- Área principal -->
+        <section class="main-content">
+            <div class="avisos-box">
+                <h2>Área de Avisos</h2>
+                <p>Aquí aparecerán las noticias, convocatorias y comunicados importantes del Programa de Derecho.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 División de Ciencias Jurídicas — Programa de Derecho</p>
+        <span id="secretAdmin" style="opacity:0; cursor:pointer;">.</span>
+    </footer>
+
+</body>
+
+<script>
+let clicks = 0;
+const secret = document.getElementById('secretAdmin');
+
+secret.addEventListener('click', () => {
+    clicks++;
+    if(clicks === 3){ // 3 clics para entrar al login
+        window.location.href = "HTML/admin/login_admin.html";
+    }
+    setTimeout(() => clicks = 0, 3000); // resetea contador si pasa mucho tiempo
+});
+</script>
+
+</html>
