@@ -6,7 +6,8 @@
   <title>Programa de Derecho - Documentos</title>
   <link rel="stylesheet" href="../../css/global.css">
   <link rel="stylesheet" href="../../css/header.css">
-  <link rel="stylesheet" href="../../css/carrera.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/titulacion.css">
   <link rel="stylesheet" href="../../css/footer.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -32,38 +33,27 @@
 <nav class="menu-horizontal">
   <ul>
     <li class="dropdown">
-      <a href="#" class="dropbtn">Planes de Estudio <i class="fas fa-caret-down"></i></a>
+      <a href="#" class="dropbtn">Titulación <i class="fas fa-caret-down"></i></a>
       <ul class="dropdown-content">
-        <li><a href="../../pdf/plan1.pdf" target="_blank" rel="noopener">Plan 1</a></li>
-        <li><a href="../../pdf/plan2.pdf" target="_blank" rel="noopener">Plan 2</a></li>
-        <li><a href="../../pdf/plan3.pdf" target="_blank" rel="noopener">Plan 3</a></li>
+        <li><a href="Titulacion/tesina_examen_profesional.html">Tesina y Examen Profesional</a></li>
+        <li><a href="Titulacion/tesis_examen_profesional.html" >Tesis y Examen Profesional</a></li>
+        <li><a href="Titulacion/totalidad_creditos.html" >Totalidad de Créditos y Alto Nivel Académico</a></li>
+        <li><a href="Titulacion/trabajo_profesional.html" >Trabajo Profesional</a></li>
+        <li><a href="Titulacion/examen_general.html" >Examen General de Conocimientos</a></li>
+        <li><a href="Titulacion/apoyo_docencia.html" >Titulación de Apoyo a la Docencia</a></li>
+        <li><a href="Titulacion/servicio_social.html" >Titulación por Servicio Social</a></li>
+        <li><a href="Titulacion/seminario_extracurricular.html" >Titulación por Seminario-Taller Extracurricular</a></li>
+        <li><a href="Titulacion/estudios_posgrado.html" >Titulación mediante Estudios en Posgrado</a></li>
       </ul>
     </li>
     <li class="dropdown">
-      <a href="#" class="dropbtn">Temarios <i class="fas fa-caret-down"></i></a>
+      <a href="#" class="dropbtn">Servicio Escolares <i class="fas fa-caret-down"></i></a>
       <ul class="dropdown-content">
         <li><a href="../../pdf/plan1.pdf" target="_blank" rel="noopener">Plan 1</a></li>
         <li><a href="../../pdf/plan2.pdf" target="_blank" rel="noopener">Plan 2</a></li>
         <li><a href="../../pdf/plan3.pdf" target="_blank" rel="noopener">Plan 3</a></li>
       </ul>
     </li>
-    <li class="dropdown">
-      <a href="#" class="dropbtn">Horarios <i class="fas fa-caret-down"></i></a>
-      <ul class="dropdown-content">
-        <li><a href="../../pdf/plan1.pdf" target="_blank" rel="noopener">Plan 1</a></li>
-        <li><a href="../../pdf/plan2.pdf" target="_blank" rel="noopener">Plan 2</a></li>
-        <li><a href="../../pdf/plan3.pdf" target="_blank" rel="noopener">Plan 3</a></li>
-      </ul>
-    </li>
-    <li class="dropdown">
-      <a href="#" class="dropbtn">Calendario escolar <i class="fas fa-caret-down"></i></a>
-      <ul class="dropdown-content">
-        <li><a href="../../pdf/plan1.pdf" target="_blank" rel="noopener">Plan 1</a></li>
-        <li><a href="../../pdf/plan2.pdf" target="_blank" rel="noopener">Plan 2</a></li>
-        <li><a href="../../pdf/plan3.pdf" target="_blank" rel="noopener">Plan 3</a></li>
-      </ul>
-    </li>
-    <li><a href="tutorias.php">Plan de Tutorías</a></li>
   </ul>
 </nav>
 
@@ -77,56 +67,35 @@
       <ul>
         <li><a href="../../index.html">Inicio</a></li>
         <li><a href="../../HTML/Egresados/RegistroEgresados.html">Registro de Egresados</a></li>
-
-        <!-- Sección Carrera -->
-        <li>
-          <a class="active">Carrera</a>
-          <ul>
-            <li>
-              <button type="button" onclick="document.getElementById('visor').src='../../pdf/1.DIPLOMADOS_APROBADOS.pdf'">
-                Planes de Estudio
-              </button>
-            </li>
-            <li>
-              <button type="button" onclick="document.getElementById('visor').src='../../pdf/2.TEMARIOS.pdf'">
-                Temarios
-              </button>
-            </li>
-            <li>
-              <button type="button" onclick="document.getElementById('visor').src='../../pdf/3.HORARIOS.pdf'">
-                Horarios de la Carrera
-              </button>
-            </li>
-            <li>
-              <button type="button" onclick="document.getElementById('visor').src='../../pdf/4.CALENDARIO.pdf'">
-                Calendario Escolar
-              </button>
-            </li>
-            <li>
-              <button type="button" onclick="document.getElementById('visor').src='../../pdf/5.TUTORIAS.pdf'">
-                Plan de Tutorías
-              </button>
-            </li>
-          </ul>
-        </li>
-
-        <!-- Otras secciones -->
+        <li><a href="../../HTML/Egresados/Carrera.html">Carrera</a></li>
         <li><a href="https://escolares.acatlan.unam.mx/">Información Académica</a></li>
         <li><a href="../../HTML/Egresados/CatalogoProfesores.html">Catálogo de Profesores</a></li>
-        <li><a href="../../HTML/Egresados/titulacion.html">Titulación y Servicios Escolares</a></li>
+        <li><a href="" class="active">Titulacion y Servicios Escolares</a></li>
         <li><a href="https://www.acatlan.unam.mx/index.php?id=1171">Bolsa de Trabajo</a></li>
         <li><a href="#">Avisos y Convocatorias</a></li>
         <li><a href="https://www.facebook.com/divisiondecienciasjuridicas/">Sistema y Recursos Complementarios</a></li>
       </ul>
     </aside>
 
-    <!-- Contenido principal -->
-    <section class="main-content">
-      <div class="avisos-box">
-        <h2>Documentos</h2>
-        <iframe id="visor" src="../../pdf/1.DIPLOMADOS_APROBADOS.pdf" width="100%" height="800" style="border:none;"></iframe>
-      </div>
-    </section>
+<div class="titulacion-container">
+
+    <div class="titulacion-card principal">
+        <h2><i class="fas fa-graduation-cap"></i> Titulación en la FES Acatlán</h2>
+        <p>La <strong>División de Ciencias Jurídicas</strong> de la FES Acatlán ofrece a sus egresados diversas modalidades de titulación para obtener el <strong>título profesional en Derecho</strong>, garantizando que los conocimientos y competencias adquiridas sean reconocidos oficialmente.</p>
+
+        <div class="info-box">
+            <p><i class="fas fa-list"></i> <strong>Modalidades disponibles:</strong> Tesina, Tesis, Examen General de Conocimientos, Trabajo Profesional, Servicio Social, Apoyo a la Docencia y Seminario-Taller Extracurricular.</p>
+            <p><i class="fas fa-map-marker-alt"></i> <strong>Dónde inscribirse:</strong> Unidad de Administración Escolar de la FES Acatlán.</p>
+            <p><i class="fas fa-calendar-alt"></i> <strong>Cuándo:</strong> Consulta las fechas oficiales publicadas en el portal y avisos de la División.</p>
+            <p><i class="fas fa-file-alt"></i> <strong>Requisitos:</strong> Haber cubierto la totalidad de las asignaturas y créditos, cumplir con los documentos y requisitos establecidos por la Unidad de Administración Escolar.</p>
+        </div>
+
+        <p>En esta sección encontrarás información detallada sobre cada modalidad de titulación, los pasos a seguir, los documentos necesarios y los plazos para realizar tu proceso de forma correcta y exitosa.</p>
+    </div>
+
+</div>
+
+
 
   </main>
 

@@ -1,0 +1,107 @@
+/* ===== Estilos para Opciones de Titulación ===== */
+
+.titulacion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.titulacion-card .modalidad {
+    display: block;
+    text-align: center;
+    background-color: #1E4A72; /* azul institucional */
+    color: #F4C430; /* dorado */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 1px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+
+.titulacion-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.titulacion-card:hover {
+    transform: translateY(-5px);
+}
+
+.titulacion-card h2 {
+    color: #1E4A72; /* Azul institucional */
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.titulacion-card p, 
+.titulacion-card li {
+    color: #333;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.titulacion-card ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+
+/* Estilo para la tarjeta principal de titulacion */
+.titulacion-card.principal {
+    background: linear-gradient(145deg, #f9f9f9, #e6f0fa);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: left;
+    line-height: 1.7;
+}
+
+.titulacion-card.principal h2 {
+    color: #1E4A72;
+    font-size: 26px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulacion-card.principal p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.titulacion-card.principal .info-box {
+    background: #fff;
+    border-left: 5px solid #F4C430;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.titulacion-card.principal .info-box p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.titulacion-card.principal .info-box i {
+    color: #1E4A72;
+    margin-right: 8px;
+}
+
+
+@media (max-width: 900px) {
+    .titulacion-container {
+        padding: 0 15px;
+    }
+}
