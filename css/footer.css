@@ -1,5 +1,5 @@
 .footer {
-    background-color: #1E4A72;
+    background-color: #003D79;
     color: #fff;
     padding: 30px 20px 0;
     font-size: 14px;
@@ -13,7 +13,7 @@
 }
 
 .footer a {
-    color: #F4C430;
+    color: #D59F0F;
     text-decoration: none;
 }
 
@@ -63,7 +63,7 @@
     padding: 15px 10px;
     font-size: 12px;
     color: #ccc;
-    background-color: #173c5e;
+    background-color: #003d79b7;
 }
 
 /* Responsive */

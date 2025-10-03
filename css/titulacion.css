@@ -12,8 +12,8 @@
 .titulacion-card .modalidad {
     display: block;
     text-align: center;
-    background-color: #1E4A72; /* azul institucional */
-    color: #F4C430; /* dorado */
+    background-color: #003D79; /* azul institucional */
+    color: #D59F0F; /* dorado */
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
 }
 
 .titulacion-card h2 {
-    color: #1E4A72; /* Azul institucional */
+    color: #003D79; /* Azul institucional */
     font-size: 22px;
     margin-bottom: 12px;
 }
@@ -66,7 +66,7 @@
 }
 
 .titulacion-card.principal h2 {
-    color: #1E4A72;
+    color: #003D79;
     font-size: 26px;
     margin-bottom: 20px;
     display: flex;
@@ -82,7 +82,7 @@
 
 .titulacion-card.principal .info-box {
     background: #fff;
-    border-left: 5px solid #F4C430;
+    border-left: 5px solid #D59F0F;
     padding: 15px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -95,7 +95,7 @@
 }
 
 .titulacion-card.principal .info-box i {
-    color: #1E4A72;
+    color: #003D79;
     margin-right: 8px;
 }
 

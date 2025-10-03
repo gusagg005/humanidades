@@ -1,0 +1,170 @@
+/* === NOSOTROS.CSS MEJORADO === */
+
+/* Hero principal */
+.nosotros-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background: linear-gradient(to right, #D59F0F, #003D79);
+  color: #fff;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+.nosotros-hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+}
+
+.nosotros-hero .text-hero {
+  position: relative;
+  flex: 1;
+  padding-right: 2rem;
+  animation: slideInLeft 1.2s ease;
+  z-index: 2;
+}
+
+.nosotros-hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nosotros-hero .subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.nosotros-hero .image-hero {
+  position: relative;
+  flex: 1;
+  text-align: right;
+  z-index: 2;
+  animation: slideInRight 1.2s ease;
+}
+
+.nosotros-hero img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Animaciones hero */
+@keyframes slideInLeft {
+  from { transform: translateX(-50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* Secciones tipo cards */
+.nosotros-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.section-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, #f5f9ff, #ffffff);
+}
+
+.section-card h3 {
+  color: #003D79;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+/* Estadísticas */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.stat-item h4 {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #002147, #003D79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeInUp 1.2s ease;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Animación para stats */
+@keyframes fadeInUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Valores */
+.values-section {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.values-section h3 {
+  margin-bottom: 2rem;
+  color: #003D79;
+  font-size: 1.8rem;
+}
+
+.values-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.value-item {
+  background: #fff;
+  border-left: 6px solid #003D79;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.value-item:hover {
+  transform: scale(1.05);
+}
+
+.value-item strong {
+  display: block;
+  color: #003D79;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.value-item p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+

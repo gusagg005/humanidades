@@ -5,8 +5,6 @@
     background: transparent;
 }
 
-
-
 .layout::before {
     content: "";
     position: absolute;
@@ -44,12 +42,12 @@
 }
 
 .sidebar ul li a:hover {
-    background: #F4C430;
+    background: #D59F0F;
     color: #000;
 }
 
 .sidebar ul li a.active {
-    background: #1E4A72;
+    background: #003D79;
     color: #fff;
     border-radius: 8px;
 }
@@ -65,7 +63,7 @@
 }
 
 .avisos-box {
-    background: rgba(244,196,48,0.9);
+    background: #D59F0F;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
@@ -77,7 +75,7 @@
 .avisos-box h2 {
     font-size: 22px;
     margin-bottom: 15px;
-    color: #1E4A72;
+    color: #003D79;
 }
 
 .avisos-box p {
@@ -106,14 +104,14 @@
 }
 
 .sidebar button:hover {
-    background: #F4C430;
+    background: #D59F0F;
     color: #000;
     border-radius: 6px;
 }
 
 /* Menú horizontal*/
 .menu-horizontal {
-  background-color: #013b75;
+  background-color: #003D79;
   padding: 0 20px;
   font-family: 'Segoe UI', sans-serif;
   position: relative;
@@ -139,7 +137,7 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 15px;
-  padding: 12px 15px;
+  padding: 5px 80px;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -148,8 +146,8 @@
 }
 
 .menu-horizontal a:hover {
-  background-color: #d9a500;
-  color: #013b75;
+  background-color: #D59F0F;
+  color: #003D79;
 }
 
 /* Dropdown */
@@ -158,10 +156,10 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #013b75;
+  background-color: #003D79;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
-  min-width: 180px;
+  min-width: 250px;
   flex-direction: column;
   overflow: hidden;
   z-index: 200;
@@ -173,8 +171,8 @@
 }
 
 .menu-horizontal .dropdown-content li a:hover {
-  background-color: #d9a500;
-  color: #013b75;
+  background-color: #D59F0F;
+  color: #003D79;
 }
 
 /* Mostrar dropdown en desktop */

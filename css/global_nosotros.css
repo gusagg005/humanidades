@@ -1,0 +1,82 @@
+/* === GLOBAL.CSS (versión mejorada) === */
+
+/* Reset y tipografía base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f7fa; /* fondo neutro */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Contenedores globales */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #003D79;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #003D79;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5 {
+  font-family: "Merriweather", Georgia, serif;
+  color: #D59F0F;
+}
+
+/* Botones genéricos */
+button, .btn {
+  background: #003D79;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover, .btn:hover {
+  background: #003D79;
+}
+
+/* Secciones globales reutilizables */
+.section {
+  padding: 3rem 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Opcional: fondo con imagen para portada/landing */
+.bg-hero {
+  background: url('../imagenes/campus.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
